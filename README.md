@@ -15,6 +15,15 @@ pip3 install -r requirements.txt
 ## Anwendung
 
 1. Extrahiere News-Artikel aus Typo3 als XML-Datei.
+  
+  Öffnet dazu das Kontextmenü im Typo3-Seitenbaum über den Ordner, der die News-Artikel enthält.
+
+  ![Schritt 1](https://raw.githubusercontent.com/gruene-roesrath/typo3-ttnews-migration/master/docs/export1.png)
+
+  Achte darauf, dass unter `Datei & Voreinstellungen` als Dateiformat `XML` ausgewählt ist.
+
+  ![Schritt 2](https://raw.githubusercontent.com/gruene-roesrath/typo3-ttnews-migration/master/docs/export2.png)
+
 
 2. Passe den Pfad in `parse.xml` an (ersetze `testdata/news-export.xml`).
 
